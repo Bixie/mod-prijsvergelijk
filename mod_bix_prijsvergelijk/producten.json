@@ -1,0 +1,33 @@
+{
+    "producten": {
+        "Pickwick earl-gray 100x2gr": {
+            "Staples": {
+                "url": "http://www.staples.nl/thee-earl-grey-2-gram/cbs/4421004.html",
+                "xpath": "//*[@id=\"CurrentPrice\"]",
+                "filter": []
+            },
+            "Officesavers": {
+                "url": "http://www.officesavers.nl/p-10994-pickwick-thee-earl-grey-2-gram-100-stuks.aspx",
+                "xpath": "//*[@id=\"VariantPriceWOTax_11573\"]",
+                "filter": ["(€ ", "excl. btw)"]
+            },
+            "Makro": {
+                "url": "http://www.makro.nl/shop/nl/office/product/1366443001001/Pickwick-Earl-Grey-Theezakjes-100x2g",
+                "xpath": "//*[@id=\"sku_1366443001001\"]/div[2]/div/div[1]/div[3]/div[1]/div[2]/span",
+                "filter": ["€ "]
+            }
+        },
+        "Appelsientje 12x1 liter": {
+            "Hapek": {
+                "url": "http://www.hapek.nl/frisdrank/15420-appelsientje-12x1liter.html",
+                "xpath": "//*[@id=\"our_price_display\"]",
+                "filter": ["€ ", "excl. btw"]
+            },
+            "Makro": {
+                "url": "http://www.makro.nl/shop/nl/office/product/240669001001/Appelsientje-Sinaasappel-12-x-1-liter",
+                "xpath": "//*[@id=\"sku_240669001001\"]/div[2]/div/div[1]/div[3]/div[1]/div[2]/span",
+                "filter": ["€ "]
+            }
+        }
+    }
+}
